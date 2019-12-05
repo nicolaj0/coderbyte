@@ -1,5 +1,6 @@
 function CorrectPath(str) {
 
+    
     const blankArray = []
     str.split('').forEach((val, ind) => {
         if (val === '?') {
